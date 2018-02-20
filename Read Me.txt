@@ -1,0 +1,15 @@
+Controls
+-------------------------------------------------
+WASD - To move
+
+Arrow Keys - To attack in the different directions
+
+Esc - To quit the game
+
+
+
+Aim of the game
+--------------------------------------------------
+The goal of the game is to reach the trap door. This is done by finding key to unlock it hidden with in the crates.
+Crates are be attacked to break them open and find the items within. Kill the slimes before they kill you stopping 
+you get lower down in the sky dungeon.

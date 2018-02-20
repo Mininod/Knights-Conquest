@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MainGameClass">
+      <UniqueIdentifier>{41e2a2f6-eba3-4db3-ab97-7343b743f72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainGameClass">
+      <UniqueIdentifier>{aa6720d9-d935-4b19-8f6e-cff528f3635c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{7d751172-15de-4764-9c77-1db6a69a185b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Items">
+      <UniqueIdentifier>{3f3ff487-21e2-4d18-bde0-3f31053ee119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Charaters">
+      <UniqueIdentifier>{4c26bcd8-029c-4e00-9331-a3482dca7cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Charaters\Enemies">
+      <UniqueIdentifier>{53bab5fc-438c-496c-b601-a26827053908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{fd348dc4-0c1e-48ae-90c0-9eaa06a549b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Items">
+      <UniqueIdentifier>{4bb41033-b4f0-4549-88c7-aad8f291ed24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Charaters">
+      <UniqueIdentifier>{e8091e06-e355-4e20-9ad9-74246ac276b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Charaters\Enemies">
+      <UniqueIdentifier>{31848216-b685-4762-b643-4e201e1c704f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Static">
+      <UniqueIdentifier>{5490fe12-fed4-4dc7-a899-140eb5cb99c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Static">
+      <UniqueIdentifier>{5cf84215-8539-4a73-aaee-f8d5c6ef6675}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Charater.cpp">
+      <Filter>Source Files\GameObjects\Charaters</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObjects\Charaters</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_Data.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Static.cpp">
+      <Filter>Source Files\GameObjects\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\GameObjects\Charaters\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\MainGameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Source Files\GameObjects\Static</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Charater.h">
+      <Filter>Header Files\GameObjects\Charaters</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameObjects\Charaters</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_Data.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>Header Files\GameObjects\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\GameObjects\Charaters\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\MainGameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Header Files\GameObjects\Static</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
